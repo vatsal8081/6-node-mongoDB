@@ -1,0 +1,11 @@
+1) we have to install the mongoDB community server in our system to install mongodb and mongoDB campas in syatem
+
+2) now in this current section which is no 7 he is giving the basic intro to mongo db so we will learn and add practic of some important things from this section but using the non gui way is not usefull for our leaning nedds so we will exclude those practics in it.
+
+3) but after completing this module we are going to use mongoDB and the mongoose ORM for mongoDB so before that i think we have to clear all the things which we leran before in depth by going to it's officeal documentations
+
+4) so now we should visit the node.js doc and the we should go through popular core node modules, then we should go to express and we should learn the things whic we cover in hear in this corse, then go to mongoDB docs and cover basic things which we learn hear.
+
+5) the aim of this is to check the officeal doc and learn things which we learn in corce and also check other things which this node, express and mongoDB provides so we have good base to go for mongoose, mongoDB and express in corce so we can clear all the possible things with this packages and we can learn more advance of it in corce then after learning this we will again go to this docs and learn advance from it.
+
+6) now if you find any of the thing which is not cover in corce in this doc then creare repo cald node-express-mongo-basic-doc and store that practic in it.

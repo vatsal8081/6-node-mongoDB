@@ -1,0 +1,3 @@
+1) mongoDB.txt
+2) mongoDB-two.txt
+3) section 7 from cource watch vid no 10, 11, 12 for learning compas and atlas

@@ -1,0 +1,48 @@
+- a mongoDB is one type of NoSQL database 
+
+- in mongoDB we store data in collections a collection is just one entity just like a table in sql databases.
+
+- in each collection we can store one or more documents a document is just like a row in sql databases.
+
+- a mongoDB is a document base database so it stores data in a format which is just like a json unlike in rows in sql database.
+
+- in mongoDB we don't need to define any fix schima for a document that mins we can store any number and name of fields unlike sql database where we have to define a fix number and exzet name of fields for table and we can only store that name and number of fields per row. so in mongoDB we can store total diffrent name and number of fields for each and every document of single collection.
+
+- in mongoDB the document store the data in BSON format which is just like a JSON but only diffrence is we have to define type of data which we want to store in any key of the document and can only store that type of data for the key. so inshort we have define the types for every fields in collection.
+
+ 
+{
+    "_id" ObjectID('234357342678),
+    "title" : "abc",
+    "tags": ["new", "travel", "hot"]
+    "comments": [
+        {"author": "Vatsal", "text": "good one."}
+    ]
+}
+
+
+- this is the example of the document of post collection 
+
+- now lets compare the mongoDB with the sql database
+
+- hear as you can see we can store any number and name of diffrent fields for each documents.
+
+- hear take a look at tags hear we can store a array which is not that easy for sql databases but hare it's just simple datata type.
+
+- now othe big diffrence between the NoSQL and sql is the way we manage the related data and there relations.
+
+- in mongoDB we have a concept cald embeded documents that mins we can have a array of object as type of any key and we can store the related data for the document in that embeded document fields only. or if we want we can also create seprate collection and can join them for relation.
+
+- take comments as example from above document hear in post collection the comments are not actual part of the posts entity but we can store the comments of the posts as embeded document in the post document only so that way we can store the entity and it's related entitys in embeded documents we we will have all the related data to entity in single object insted of diffrent collections.
+
+- also if we want we can create the comments entity and can connect the post entity and comments entity togather.
+
+- so as you can see in mongoDB we are flaxible for storing the related entitys in diffrent ways it's just question of how we want to store any data for a entity and how we want to manage it.
+
+- but in sql database we just have one way of storing the related data is by creating seprate tabel and joining them with the id.
+
+- so the creating seprate entity and storing data in it is cald normalazing and storing the related data in same entity is cald denormalazing.
+
+- sql only supports normalazing and NoSQL supports normalazing and denormalazing both so it's just question of how we want to store a data in NoSQL we can use both ways base on how we want to store, CRUD, and manage data in mongoDB.
+
+- we will learn many ways of data modeling in future in mongoDB but it's just basic overview of mongoDB.
